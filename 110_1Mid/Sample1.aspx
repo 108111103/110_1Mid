@@ -29,11 +29,11 @@
                 <asp:HyperLink ID="HyperLink1" runat="server" Height="30px" ImageUrl="~/youtube-brands.svg" NavigateUrl="https://www.youtube.com/" Width="30px"></asp:HyperLink>
             </p>
             <p style="font-size:x-large">驗證碼
-                <asp:TextBox ID="tb_Num" runat="server" Height="15px" Width="50px"></asp:TextBox>
+                <asp:TextBox ID="tb_Num" runat="server" Height="15px" Width="50px" AutoPostBack="True" CausesValidation="True"></asp:TextBox>
                 <asp:Image ID="ig_Num" runat="server" />
                 <asp:HiddenField ID="HiddenField1" runat="server" />
             </p>
-            <asp:Button ID="btn_Submit" runat="server" Text="送出" Height="30px" Width="80px" OnClick="btn_Submit_Click" />
+            <asp:Button ID="btn_Submit" runat="server" Text="送出" Height="30px" Width="80px"/>
         </div>
     </form>
 </body>
