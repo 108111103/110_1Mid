@@ -66,5 +66,15 @@ namespace _110_1Mid {
                 .ToUpper();
             return s_Md5;
         }
+
+        protected void ImageButton1_Click(object sender, ImageClickEventArgs e)
+        {
+
+        }
+
+        protected void btn_Submit_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
